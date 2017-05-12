@@ -1,7 +1,6 @@
-DROP DATABASE IF EXISTS puppies;
-CREATE DATABASE puppies;
+DROP SCHEMA IF EXISTS puppies;
+CREATE SCHEMA puppies;
 
-\c puppies;
 
 CREATE TABLE pups (
   ID SERIAL PRIMARY KEY,
